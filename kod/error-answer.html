@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hata Takip Sohbeti</title>
+    <link rel="stylesheet" href="styles/styles.css">
+</head>
+<body>
+    <header class="header">
+        <div class="logo">
+            <img src="resources/pictures/logo.png" alt="Logo" class="logo-png">
+            <div class="logo-name-div">
+                <span>BizConnect</span>
+            </div>
+        </div>
+        <nav class="nav">
+            <a class="nav-item" href="index.html">Anasayfa</a>
+            <a class="nav-item" href="#">Projeler</a>
+            <a class="nav-item" href="#">Görevler</a>
+            <a class="nav-item" href="#">Raporlar</a>
+            <a class="nav-item" href="message.html">Mesaj</a>
+            <a class="nav-item" href="error.html">Hata Bildir</a>
+        </nav>
+        <div class="profile">
+            <img src="resources/pictures/beyza-y.png" alt="Profil Resmi" class="profile-pic">
+            <span>Beyza Y.</span>
+        </div>
+    </header>
+
+    <div class="background-logo"></div>
+
+    <div class="feedback-chat-container">
+        <h2>Mesajlaşma Ekranı</h2>
+        <div id="chatMessages" class="chat-messages"></div>
+            <form id="chatForm">
+                <input type="text" id="chatInput" placeholder="Mesajınızı yazın..." required>
+                <button type="submit">Gönder</button>
+            </form>
+    </div>
+
+    <footer class="footer">
+        &copy; 2024 BizConnect. Tüm Hakları Saklıdır.
+    </footer>
+    <script src="scripts/script.js"></script>
+</body>
+</html>
